@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 import ReactDOM from 'react-dom/client'
-
-function Greeting(){
-    return <h2>My First Component</h2>
+// modules
+function Greeting() {
+  return <h2>welcome to the first component</h2>
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
